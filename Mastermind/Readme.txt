@@ -114,3 +114,4 @@ Mac and Linux OSes (Unix based systems):
 	- If you submit the right combination of letters in the right order, you win. Congrats! Now play again to see if you can get the code in less attempts.
 (4.5) Losing
 	- If you submit 12 guesses and the countdown reaches zero without guessing correctly, you lose the game. Worry not as you can play again with a new code
+	- During a guess, you can type "quit" or "exit" to immediately drop the counter to zero and lose the game
