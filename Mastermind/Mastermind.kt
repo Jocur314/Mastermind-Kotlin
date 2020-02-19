@@ -124,6 +124,9 @@ class GameController (val game: Game, val view: GameView) {//Controller class - 
 				} else if(codeGuess == "show") {
 					println(inView.showCode(inGame.code))
 					guess(true)
+				} else if(codeGuess == "quit" || codeGuess == "exit"){
+					inGame.countdown = 1
+					inGame.guess = codeGuess
 				}
 				else {
 					guess(false)
@@ -169,6 +172,7 @@ class GameController (val game: Game, val view: GameView) {//Controller class - 
 		}
 		return (lose)
 	}
+	
 }
 
 class Mastermind() {// Main class where we set up our variables and start the application actions
